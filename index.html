@@ -3,97 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Шиномонтаж на Амундсена 53/2 — Екатеринбург</title>
+<title>ТопКар — Автосервис и шиномонтаж в Екатеринбурге</title>
 <style>
-  :root { --bg: #111317; --card: #1c1f26; --accent: #ef4444; --text: #f9fafb; --muted: #9ca3af; }
+  :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --accent-btn: #0284c7; --text: #f8fafc; --muted: #94a3b8; }
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   body { background: var(--bg); color: var(--text); line-height: 1.5; }
-  .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-  header { padding: 20px 0; border-bottom: 1px solid #2d313c; display: flex; justify-content: space-between; align-items: center; }
-  .logo { font-size: 20px; font-weight: 800; color: #fff; text-transform: uppercase; }
-  .hero { padding: 60px 0; text-align: center; }
-  .hero h1 { font-size: 36px; margin-bottom: 14px; line-height: 1.2; }
-  .hero p { color: var(--muted); font-size: 17px; max-width: 620px; margin: 0 auto 28px; }
-  .btn { display: inline-block; background: var(--accent); color: #fff; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; font-size: 16px; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 20px 0; border-bottom: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 24px; font-weight: 800; color: var(--accent); letter-spacing: 0.5px; }
+  .hero { padding: 65px 0; text-align: center; }
+  .badge { display: inline-block; background: rgba(56, 189, 248, 0.15); color: var(--accent); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 16px; }
+  .hero h1 { font-size: 38px; margin-bottom: 16px; line-height: 1.2; }
+  .hero p { color: var(--muted); font-size: 17px; max-width: 640px; margin: 0 auto 30px; }
+  .btn { display: inline-block; background: var(--accent-btn); color: #fff; font-weight: 700; padding: 15px 30px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; font-size: 16px; transition: 0.2s; }
+  .btn:hover { opacity: 0.9; }
   .section { padding: 45px 0; }
-  .section h2 { font-size: 26px; margin-bottom: 24px; text-align: center; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
-  .card { background: var(--card); padding: 22px; border-radius: 12px; border: 1px solid #2d313c; }
-  .card h3 { font-size: 18px; margin-bottom: 6px; }
-  .price { color: var(--accent); font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+  .section h2 { font-size: 28px; margin-bottom: 24px; text-align: center; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .card { background: var(--card); padding: 24px; border-radius: 12px; border: 1px solid #334155; }
+  .card h3 { font-size: 19px; margin-bottom: 8px; }
+  .price { color: var(--accent); font-size: 21px; font-weight: 800; margin-bottom: 10px; }
   .card p { color: var(--muted); font-size: 14px; }
 </style>
 </head>
 <body>
 <div class="container">
   <header>
-    <div class="logo">ШИНОМОНТАЖ 24/7</div>
-    <div style="font-size: 14px; color: var(--muted);">Екатеринбург, ул. Амундсена, 53/2</div>
+    <div class="logo">ТОПКАР</div>
+    <div style="font-size: 14px; color: var(--muted);">Екатеринбург, ул. 8 Марта, 158 (Автовокзал)</div>
   </header>
   <section class="hero">
-    <h1>Быстрый шиномонтаж и сезонная переобувка без очередей</h1>
-    <p>Снятие, установка, балансировка и ремонт проколов для легковых авто и кроссоверов. Запишитесь на удобное время.</p>
-    <a href="#book" class="btn">Записаться на переобувку</a>
+    <div class="badge">★ Рейтинг 5.0 • Хорошее место 2026</div>
+    <h1>Автосервис и шиномонтаж в Екатеринбурге с честной гарантией</h1>
+    <p>Техническое обслуживание, ремонт ходовой части, компьютерная диагностика и сезонный шиномонтаж. Согласовываем стоимость до начала работ.</p>
+    <a href="#visit" class="btn">Записаться на сервис</a>
   </section>
   <section class="section">
-    <h2>Услуги и прайс-лист</h2>
+    <h2>Услуги автотехцентра</h2>
     <div class="grid">
       <div class="card">
-        <h3>Комплексная переобувка R13–R15</h3>
-        <div class="price">от 1 400 ₽</div>
-        <p>Снятие и установка колес, демонтаж/монтаж резины, точная компьютерная балансировка.</p>
+        <h3>Плановое ТО и замена масла</h3>
+        <div class="price">от 800 ₽</div>
+        <p>Замена масла в ДВС, КПП, редукторах, фильтров и технических жидкостей с проверкой по чек-листу.</p>
       </div>
       <div class="card">
-        <h3>Комплексная переобувка R16–R18</h3>
-        <div class="price">от 1 800 ₽</div>
-        <p>Полный комплекс работ для седанов и кроссоверов с проверкой давления и герметичности.</p>
+        <h3>Ремонт ходовой и тормозов</h3>
+        <div class="price">от 1 000 ₽</div>
+        <p>Замена колодок, дисков, стоек, рычагов, сайлентблоков и ступичных подшипников.</p>
       </div>
       <div class="card">
-        <h3>Переобувка R19–R21 и RunFlat</h3>
-        <div class="price">от 2 400 ₽</div>
-        <p>Бережный монтаж низкопрофильной резины и усиленных шин без повреждения дисков.</p>
+        <h3>Сезонный шиномонтаж</h3>
+        <div class="price">от 1 500 ₽</div>
+        <p>Снятие, установка, балансировка колес, ремонт проколов и подготовка резины к сезону.</p>
       </div>
       <div class="card">
-        <h3>Ремонт проколов и порезов</h3>
-        <div class="price">от 350 ₽</div>
-        <p>Установка жгутов, грибков, заплаток и горячая вулканизация боковых порезов.</p>
+        <h3>Компьютерная диагностика</h3>
+        <div class="price">от 1 000 ₽</div>
+        <p>Чтение и расшифровка ошибок ЭБУ, проверка датчиков, поиск неисправностей электроники.</p>
       </div>
       <div class="card">
-        <h3>Балансировка колес</h3>
-        <div class="price">от 150 ₽ / колесо</div>
-        <p>Устранение биения руля на современном балансировочном стенде.</p>
+        <h3>Диагностика подвески</h3>
+        <div class="price">от 500 ₽</div>
+        <p>Полный осмотр автомобиля на подъемнике с выдачей списка рекомендаций по ремонту.</p>
       </div>
       <div class="card">
-        <h3>Подкачка и проверка шин</h3>
-        <div class="price">от 50 ₽</div>
-        <p>Выставление точного давления по регламенту производителя вашего автомобиля.</p>
+        <h3>Подбор автозапчастей</h3>
+        <div class="price">бесплатно</div>
+        <p>Подберем оригинальные запчасти или проверенные аналоги под ваш бюджет без переплат.</p>
       </div>
     </div>
   </section>
-  <section class="section" id="book">
-    <div class="card" style="max-width: 460px; margin: 0 auto;">
-      <h2 style="margin-bottom: 8px;">Запись без очереди</h2>
-      <p style="text-align: center; color: var(--muted); font-size: 14px; margin-bottom: 20px;">Оставьте номер и радиус колес — мастер перезвонит и забронирует время.</p>
-      <form onsubmit="tireDemo(event)" style="display: flex; flex-direction: column; gap: 12px;">
-        <input type="text" placeholder="Радиус колес и марка авто (например: R16, Kia Rio)" required style="padding: 12px; border-radius: 8px; border: 1px solid #374151; background: #111317; color: #fff;">
-        <input type="tel" placeholder="+7 (___) ___-__-__" required style="padding: 12px; border-radius: 8px; border: 1px solid #374151; background: #111317; color: #fff;">
-        <button type="submit" class="btn" style="width: 100%;">Забронировать время</button>
+  <section class="section" id="visit">
+    <div class="card" style="max-width: 480px; margin: 0 auto;">
+      <h2 style="margin-bottom: 8px;">Запись на обслуживание</h2>
+      <p style="text-align: center; color: var(--muted); font-size: 14px; margin-bottom: 20px;">Укажите марку авто и задачу — мастер рассчитает стоимость и предложит удобное время.</p>
+      <form onsubmit="topkarDemo(event)" style="display: flex; flex-direction: column; gap: 12px;">
+        <input type="text" placeholder="Марка авто и что нужно сделать (например: ТО, переобувка)" required style="padding: 12px; border-radius: 8px; border: 1px solid #475569; background: #0f172a; color: #fff;">
+        <input type="tel" placeholder="+7 (___) ___-__-__" required style="padding: 12px; border-radius: 8px; border: 1px solid #475569; background: #0f172a; color: #fff;">
+        <button type="submit" class="btn" style="width: 100%;">Отправить заявку</button>
       </form>
-      <p id="ok" style="color: #10b981; text-align: center; margin-top: 12px; display: none;">Заявка принята! Скоро перезвоним для подтверждения.</p>
+      <p id="ok" style="color: #34d399; text-align: center; margin-top: 12px; display: none;">Заявка принята! Мастер скоро свяжется с вами.</p>
     </div>
   </section>
 
-  <footer style="padding: 30px 0; border-top: 1px solid #2d313c; text-align: center; color: var(--muted); font-size: 14px;">
-    <p>Шиномонтаж • Екатеринбург, ул. Амундсена, 53/2</p>
-    <p style="margin-top: 6px;">Телефон для записи: <a href="tel:+79049801022" style="color: var(--accent); text-decoration: none; font-weight: 700;">+7 (904) 980-10-22</a></p>
+  <footer style="padding: 30px 0; border-top: 1px solid #334155; text-align: center; color: var(--muted); font-size: 14px;">
+    <p>Автосервис и шиномонтаж «ТопКар» • Екатеринбург, ул. 8 Марта, 158</p>
+    <p style="margin-top: 6px;">Телефон для записи: <a href="tel:+79090006766" style="color: var(--accent); text-decoration: none; font-weight: 700;">+7 (909) 000-67-66</a></p>
   </footer>
 </div>
 <script>
-  function tireDemo(e) {
+  function topkarDemo(e) {
     e.preventDefault();
     document.getElementById('ok').style.display = 'block';
   }
 </script>
 </body>
 </html>
+
 
